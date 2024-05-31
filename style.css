@@ -1,0 +1,80 @@
+:root {
+    --root-juice: #6f564f;
+    --bio-grow: #3c6e41;
+    --fish-mix: #164178;
+    --bio-bloom: #ff6e5a;
+    --top-max: #b93d3b;
+    --bio-heaven: #39a0a7;
+    --acti-vera: #629a3c;
+    --microbes: #2b231c;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label, select, input, button {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#water-amount {
+    width: 100%;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
