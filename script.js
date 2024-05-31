@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const dosages = {
         allmix: {
-            "Root Juice": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
-            "Bio Grow": [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5],
-            "Fish Mix": [2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5],
-            "Bio Bloom": [2, 2, 3, 3, 4, 4, 4, 4, 4, 4],
+            "Root Juice": [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "Bio Grow": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            "Fish Mix": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            "Bio Bloom": [1, 2, 2, 3, 3, 4, 4, 4, 4, 4],
             "Top Max": [1, 2, 3, 3, 4, 4, 4, 4, 4, 4],
             "Bio Heaven": [2, 2, 2, 3, 3, 4, 4, 4, 4, 4],
-            "Acti Vera": [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5],
+            "Acti Vera": [2, 2, 2, 3, 3, 4, 4, 4, 4, 4],
             "Microbes": [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5]
         },
         lightmix: {
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <table>
                 <thead>
                     <tr>
-                        <th>Dünger</th>
+                        <th>Produkt</th>
                         <th>Menge (ml)</th>
                     </tr>
                 </thead>

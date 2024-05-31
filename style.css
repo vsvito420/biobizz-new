@@ -21,10 +21,10 @@ body {
     margin: auto;
     overflow: hidden;
     padding: 20px;
+    text-align: center; /* Center align all content */
 }
 
 h1 {
-    text-align: center;
     color: #333;
 }
 
@@ -37,7 +37,7 @@ label, select, input, button {
 }
 
 #water-amount {
-    width: 100%;
+    width: calc(100% - 22px); /* Adjust width to accommodate for padding */
 }
 
 button {
@@ -54,7 +54,7 @@ button:hover {
 #output {
     margin-top: 20px;
     padding: 20px;
-    background: #fff;
+    background: #ff0000;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -77,4 +77,11 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+}
+
+/* Media queries for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
 }
