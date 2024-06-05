@@ -6,6 +6,7 @@
     --top-max: #b93d3b;
     --bio-heaven: #39a0a7;
     --acti-vera: #629a3c;
+    --alg-a-mic: #3ab34a,
     --microbes: #2b231c;
 }
 
@@ -16,13 +17,7 @@ body {
     padding: 0;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    padding: 20px;
-    text-align: center; /* Center align all content */
-}
+
 
 h1 {
     color: #333;
